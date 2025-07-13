@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Events</title>
+  <link rel="icon" href="img/date.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: paleturquoise; /* formal light background */
+      color: #333;               /* dark professional text */
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    center h1 {
+      font-size: 3rem;
+      color: #003366;
+    }
+
+    center p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    hr {
+      margin: 30px 0;
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, #003366, #999);
+    }
+
+    .event {
+      background-color: #fff;
+      padding: 25px;
+      margin: 20px auto;
+      border-radius: 10px;
+      max-width: 800px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+      border-left: 5px solid #003366;
+      transition: transform 0.3s ease;
+    }
+
+    .event:hover {
+      transform: scale(1.02);
+    }
+
+    .event img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .event a {
+      color: #0044cc;
+      text-decoration: none;
+    }
+
+    .event a:hover {
+      color: #ff3366;
+      text-decoration: underline;
+    }
+
+    .contact {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .contact h1 {
+      color: #003366;
+      font-size: 2.5rem;
+    }
+
+    .contact h2, .contact p {
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      center h1 {
+        font-size: 2rem;
+      }
+
+      .event {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <h1>Upcoming Events 📅</h1>
+    <p>Don't miss any of your important events. Stay updated.</p>
+  </center>
+
+  <hr>
+
+  <div class="event">
+    <img src="https://www.jqueryscript.net/images/jQuery-Plugin-For-Stacked-Polaroid-Image-Gallery-Photopile.jpg" alt="Event 1">
+    <h1>Photo Gallery Event</h1>
+    <h2>Free Entry! Free Food! Pets are not allowed!</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore ullam, ad officiis distinctio reiciendis voluptatem vero consequatur exercitationem atque, nesciunt eos iusto possimus deleniti soluta, dolorum veritatis doloremque sapiente rem totam saepe!
+    </p>
+  </div>
+
+  <div class="event">
+    <img src="https://assets.architecturaldigest.in/photos/600820a2345ead69c9c1ac4a/16:9/w_2560%2Cc_limit/fancy-pants-retail-1366x768.jpg" alt="Event 2">
+    <h1><a href="https://www.flipkart.com/" target="_blank">Fashion Store</a></h1>
+    <h2>Free Entry! Free Food! Pets are not allowed!</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sequi, delectus excepturi culpa odio incidunt, sapiente ducimus aliquam a laborum aut maxime quos architecto porro est. Neque veritatis quas nesciunt sequi eum accusantium unde repudiandae.
+    </p>
+  </div>
+
+  <hr>
+
+  <div class="contact">
+    <h1>Contact</h1>
+    <h2>📞 75300 55857 | ✉️ swathi@gmail.com</h2>
+    <p>📍 Bangalore, India</p>
+  </div>
+</body>
+</html>
